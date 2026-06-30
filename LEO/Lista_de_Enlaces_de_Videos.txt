@@ -1,6 +1,6 @@
 -----------------------------------------------------------------------------
-0- Listado de Video-planchas
-----------------------------
+0- PlayList Leo J. Loyola
+-------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/LEO/portada.jpg"
 url-video:   "https://drive.google.com/drive/folders/1tDLGQHJaL8NqsJNqlR2G4CUi453gdRfR"
