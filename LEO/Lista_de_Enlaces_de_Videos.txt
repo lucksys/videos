@@ -39,7 +39,7 @@ info:        "Compósición en idioma: Español neutro
 3- El Uno, lo Diverso 
 ---------------------
 
-url-imagen:  "https://lucksys.github.io/video-s/LEO/el_uno,_lo_diverso/portada2.jpg"
+url-imagen:  "https://lucksys.github.io/videos/LEO/el_uno,_lo_diverso/portada2.jpg"
 url-video:   "https://drive.google.com/file/d/15tM5fl2tpohGUdaKeLyCtZ-1rdRn0_TM/view"
 url-cancion: "https://drive.google.com/file/d/1Op7bn1G5IvCor4CTPbZiIr_J6eFuyLAb/view"
 web-video:   "https://lucksys.github.io/videos/LEO/el_uno,_lo_diverso/index2"
@@ -99,7 +99,7 @@ info:        "Compósición en idioma: español neutro.
 ------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/LEO/no_te_duermas/portada2.jpg"
-url-video: "https://drive.google.com/file/d/1cnd48Yeny7tuPmqywG7ouibH1MLAnGx1/view"
+url-video:   "https://drive.google.com/file/d/1cnd48Yeny7tuPmqywG7ouibH1MLAnGx1/view"
 url-cancion: "https://drive.google.com/file/d/1TxDQrbSnZqcB8wr3cG5OSV2_A5RKKk_v/view"
 web-video:   "https://lucksys.github.io/videos/LEO/no_te_duermas/index2"
 info:        "Compósición en idioma: Italiano Florentino.EPYC
