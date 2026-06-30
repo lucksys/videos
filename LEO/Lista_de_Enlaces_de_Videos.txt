@@ -1,0 +1,111 @@
+-----------------------------------------------------------------------------
+0- Listado de Video-planchas
+----------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/portada.jpg"
+url-video:   "https://drive.google.com/drive/folders/1tDLGQHJaL8NqsJNqlR2G4CUi453gdRfR"
+url-cancion: "https://drive.google.com/drive/folders/1tDLGQHJaL8NqsJNqlR2G4CUi453gdRfR"
+web-video:   "https://lucksys.github.io/videos/LEO/index"
+web-canción: "https://lucksys.github.io/videos/LEO/index"
+info: "Indice General de Video-Cancions Leo J. Loyola
+       N.A."
+
+------------------------------------------------------------------------------
+1- Ave_Maria 
+-------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/ave_maria/portada.jpg"
+url-video:   "https://drive.google.com/file/d/1hNndNoOT_eWMoE-PHCFIZnxJWDUwVwS2/view"
+url-cancion: "https://drive.google.com/file/d/1hNndNoOT_eWMoE-PHCFIZnxJWDUwVwS2/view"
+web-video:   "https://lucksys.github.io/videos/LEO/ave_maria/index"
+info:        "Composición cantada en: Italiano Florentino por el Barítono Spinto: Leo J Loyola.
+              Banda de Rock Sinfónico Gnóstico."
+
+
+------------------------------------------------------------------------------
+2- Che-chiruza  
+--------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/che-chiruza/portada.jpg"
+url-video:   "https://drive.google.com/file/d/1D2npKoSO5_YMVj_81KXtDubUMusR_jUJ/view"
+url-cancion: "https://drive.google.com/file/d/1hf5xTCy4Q7Mpe8Q-CbRR94TwNjxvMJt7/view"
+web-video:   "https://lucksys.github.io/videos/LEO/che-chiruza/index"
+info:        "Compósición en idioma: Español neutro
+              tango."  
+
+------------------------------------------------------------------------------
+3- El Uno, lo Diverso 
+---------------------
+
+url-imagen:  "https://lucksys.github.io/video-s/LEO/el_uno,_lo_diverso/portada.jpg"
+url-video:   "https://drive.google.com/file/d/15tM5fl2tpohGUdaKeLyCtZ-1rdRn0_TM/view"
+url-cancion: "https://drive.google.com/file/d/1Op7bn1G5IvCor4CTPbZiIr_J6eFuyLAb/view"
+web-video:   "https://lucksys.github.io/videos/LEO/el_uno,_lo_diverso/index"
+info:        "Cantada en Italiano Florentino. La canción habla de la unidad escondida en
+              todo ser. Nos Recuerda que la multiplicidad nace de la Fuente inefable. 
+              Cada alma es una chispa del mismo origen. El espíritu añora volver a la Luz. 
+              El Logos aparece como puente sagrado. El Verbo sostiene la comunión del
+              todo. El ego separado se muestra como ilusión. La memoria interior rompe
+              la frontera. El dueto expresa despertar y retorno. El final celebra la 
+              unión con el UNO."
+
+------------------------------------------------------------------------------
+4- Lady of my Life (English-Country-Balada by:LEO)
+--------------------------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/Lady_of_My_Life/portada.jpg"
+url-video:   "https://drive.google.com/file/d/12IxEla0pTSLD2O2DdKF0kuxdluvtTIOq/view"
+url-cancion: "https://drive.google.com/file/d/18wMebDzqE_2yEIfKIFE-IjqWsVx-Wpt8/view"
+web-video:   "https://lucksys.github.io/videos/LEO/Lady_of_My_Life/index"
+info:        "Composicion cantada en : Ingles. Un hombre ha esperado durante años encontrar
+              a la mujer destinada para su alma. La presencia de ella le brinda paz, 
+              refugio y seguridad interior. Sus ojos le recuerdan cielos claros y tiempos
+              luminosos. Él siente haber hallado un amor verdadero y profundamente espiritual.
+              La mujer sana las heridas de su corazón y lo ayuda a setirse completo. Ambos 
+              comparten un vínculo eterno basado en fidelidad y promesas sinceras.
+              El amor de ella transforma la soledad en esperanza y plenitud.
+              Él agradece poder caminar a su lado y tomar su mano.
+              La unión entre ambos representa un hogar sagrado y permanente.
+              La canción expresa una devoción profunda hacia el amor de toda una vida."  
+
+------------------------------------------------------------------------------
+5- Latido de la Patria - EPYC - LEO -
+-------------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/latido_de_la_patria/portada.jpg"
+url-video:   "https://drive.google.com/file/d/1mXsJoL37IjQowKU0u3iG2seCyDk0gcVv/view"
+url-cancion: "https://drive.google.com/file/d/16QN9L6JqNqECWDafXr01q3QmcRz0N9Ph/view"
+web-video:   "https://lucksys.github.io/videos/LEO/latido_de_la_patria/index"
+info:        "Composición cantada en: Español neutro por el Barítono Spinto: Leo J. Loyola.
+              Latido_de_la:Patria es un Himno al Corazón,la Soberania, La libertad y la 
+              Fraternidad. !!vMi Padria Eres Tu !! 
+              Banda de Rock Sinfónico Gnóstico." 
+
+------------------------------------------------------------------------------
+6- la_voluntad_entre_el_ego_y_la_voz_del_alma - EPYC - LEO -
+------------------------------------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/la_voluntad_entre_el_ego_y_la_voz_del_alma/portada.jpg"
+url-video:   "https://drive.google.com/file/d/1PFMZml78RewDGvuXatIbowzJjwYH1VRB/view"
+url-cancion: "https://drive.google.com/file/d/1PFMZml78RewDGvuXatIbowzJjwYH1VRB/view"
+web-video:   "https://lucksys.github.io/videos/LEO/la_voluntad_entre_el_ego_y_la_voz_del_alma/index"
+info:        "Compósición en idioma: español neutro.
+              N.A." 
+
+------------------------------------------------------------------------------
+7- Nessum Dorma - EPYC - LEO -
+------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/no_te_duermas/portada.jpg"
+url-video: "https://drive.google.com/file/d/1cnd48Yeny7tuPmqywG7ouibH1MLAnGx1/view"
+url-cancion: "https://drive.google.com/file/d/1TxDQrbSnZqcB8wr3cG5OSV2_A5RKKk_v/view"
+web-video:   "https://lucksys.github.io/videos/LEO/no_te_duermas/index"
+info:        "Compósición en idioma: Italiano Florentino.EPYC
+              2° Aria de la Opera Turandot : NESSUN DORMA (que nadie duerma de Giacomo Puccini) 
+              Los Tres misterios alquímicos de Turandot son: El Fuego, La Sangre y el Corazón.
+​              Representan la fuerza transformadora de la voluntad, la energía vital que fluye 
+              por el ser y el núcleo donde reside el sentimiento y el equilibrio espiritual. 
+              Juntos forman la base de la transmutación interna." 
+              
+------------------------------------------------------------------------------
+ 
