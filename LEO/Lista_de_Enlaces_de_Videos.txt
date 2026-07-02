@@ -110,4 +110,25 @@ info:        "Compósición en idioma: Italiano Florentino.EPYC
               Juntos forman la base de la transmutación interna." 
               
 ------------------------------------------------------------------------------
+8- Retorno al recuerdo EPYC -(Ritorna al Ricordo-EPYC-LEO).
+------------------------------------------------------------
+                            
+url-imagen: "https://lucksys.github.io/videos/LEO/retorno_al_recuerdo/portada2.jpg"
+url-video: "https://drive.google.com/file/d/1o4_dRBGBUa2ISMS2JTykofWaGAZZ6Al-/view"
+url-cancion: "https://drive.google.com/file/d/17tJbIV3xY920RnZgt97PqsqTexN8nuDu/view"
+web-video: "https://lucksys.github.io/videos/LEO/retorno_al_recuerdo/index2"
+info: "Composición cantada en: Itaiano Florentino. Basadas en las Bodas Alquimicas 
+       de C.R. y en la cancion Napolitana Torna a Suriento.
+       Cuenta la historia de un alma que atraviesa pruebas para recordar quién 
+       era antes del olvido. La rosa y la piedra guardan un nombre perdido. 
+       la rosa mistica floreciendo simboliza el despertar del alma humana,
+       la piedra (o la cruz de piedra) representa la estabilidad del Pleroma.
+       Las muertes simbólicas revelan una memoria antigua.
+       El templo buscado afuera aparece dentro del corazón.
+       La separación era solo una ilusión del sueño.
+       El recuerdo devuelve la luz olvidada.
+       La unión alquímica (matrimono Alquímico) transforma la herida en 
+       conocimiento. El regreso final no es a un lugar, sino al origen."
+
+-----------------------------------------------------------------------
  
