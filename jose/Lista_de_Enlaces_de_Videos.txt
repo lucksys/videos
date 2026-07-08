@@ -15,8 +15,8 @@ info: "Indice General de Video-Cancions Jose Voluntarista (Pepe)
 -----------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/portada.jpg"
-url-video:   ""
-url-cancion: ""
+url-video:   "https://drive.google.com/file/d/1HWWpziukkZDO3m_9J0OVbodlQfmnGDKN/view"
+url-cancion: "https://drive.google.com/file/d/1K9g6wGo8MNJfLCFNNEyW_P6kmylVhWWA/view"
 web-video:   "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=k"
 web-cancion: "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=a"
 info:        "Composición cantada en: Español Neutro .
@@ -24,12 +24,12 @@ info:        "Composición cantada en: Español Neutro .
 
 
 ------------------------------------------------------------------------------
-2- Will Freedom and Emancipation 
---------------------------------
+2- Will Freedom and Emancipation (Voluntad Libertad y Emancipación)
+-------------------------------------------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/portada.jpg"
-url-video:   ""
-url-cancion: ""
+url-video:   "https://drive.google.com/file/d/1xyD3P4nOIgnuW8uusmYcW_cqtBM2fRxJ/view"
+url-cancion: "https://drive.google.com/file/d/1LbSJF1pJ672pgeK_JkkjM_B6OYRfVD25/view"
 web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=k"
 web-cancion: "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=a"
 info:        "Compósición en idioma: Igles Americano
