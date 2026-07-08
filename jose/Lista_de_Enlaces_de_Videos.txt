@@ -5,8 +5,8 @@
 url-imagen:  "https://lucksys.github.io/videos/jose/portada.jpg"
 url-video:   ""
 url-cancion: ""
-web-video:   "https://lucksys.github.io/videos/LEO/index"
-web-canción: "https://lucksys.github.io/videos/LEO/index"
+web-video:   "https://lucksys.github.io/videos/jose/index"
+web-canción: "https://lucksys.github.io/videos/jose/index"
 info: "Indice General de Video-Cancions Jose Voluntarista (Pepe)
        N.A."
 
