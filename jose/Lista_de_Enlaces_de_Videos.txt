@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------------
+0- PlayList Jose Voluntarista (Pepe)
+-----------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/jose/portada.jpg"
+url-video:   ""
+url-cancion: ""
+web-video:   "https://lucksys.github.io/videos/LEO/index"
+web-canción: "https://lucksys.github.io/videos/LEO/index"
+info: "Indice General de Video-Cancions Jose Voluntarista (Pepe)
+       N.A."
+
+------------------------------------------------------------------------------
+1- Voluntad Libertad y Emancipación 
+-----------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/portada.jpg"
+url-video:   ""
+url-cancion: ""
+web-video:   "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=k"
+web-cancion: "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=a"
+info:        "Composición cantada en: Español Neutro .
+              Banda de Rock Sinfónico Gnóstico."
+
+
+------------------------------------------------------------------------------
+2- Will Freedom and Emancipation 
+--------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/portada.jpg"
+url-video:   ""
+url-cancion: ""
+web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=k"
+web-cancion: "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=a"
+info:        "Compósición en idioma: Igles Americano
+              tango."  
+
+------------------------------------------------------------------------------
+
