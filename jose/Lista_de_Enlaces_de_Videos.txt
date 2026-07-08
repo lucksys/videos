@@ -1,6 +1,6 @@
 -----------------------------------------------------------------------------
 0- PlayList Jose Voluntarista (Pepe)
------------------------------------
+------------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/jose/portada.jpg"
 url-video:   ""
@@ -19,9 +19,18 @@ url-video:   "https://drive.google.com/file/d/1HWWpziukkZDO3m_9J0OVbodlQfmnGDKN/
 url-cancion: "https://drive.google.com/file/d/1K9g6wGo8MNJfLCFNNEyW_P6kmylVhWWA/view"
 web-video:   "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=k"
 web-cancion: "https://lucksys.github.io/videos/jose/voluntad_libertad_y_emancipación/index?t=a"
-info:        "Composición cantada en: Español Neutro .
+info:        "Composición cantada en: Español Neutro.La canción proclama la voluntad, la libertad y
+              la emancipación como fundamentos de una vida digna.
+              Defiende la autonomía de cada persona y rechaza toda forma de dogmatismo o imposición.
+              Afirma que la diversidad humana es una riqueza que debe ser respetada y celebrada.
+              Sostiene que la justicia solo puede surgir de la conciencia y de la libre elección.
+              Condena la violencia como instrumento de dominación y promueve la defensa de la 
+              libertad.
+              Propone una organización basada en la cooperación, la descentralización y el respeto mutuo.
+              Invita a construir comunidades mediante el pensamiento, la acción solidaria y la convivencia
+              pacífica.
+              Concluye que un mundo más libre florece cuando cada ser humano sigue su voluntad con valentía y sin temor.
               Banda de Rock Sinfónico Gnóstico."
-
 
 ------------------------------------------------------------------------------
 2- Will Freedom and Emancipation (Voluntad Libertad y Emancipación)
@@ -32,8 +41,18 @@ url-video:   "https://drive.google.com/file/d/1xyD3P4nOIgnuW8uusmYcW_cqtBM2fRxJ/
 url-cancion: "https://drive.google.com/file/d/1LbSJF1pJ672pgeK_JkkjM_B6OYRfVD25/view"
 web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=k"
 web-cancion: "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index?t=a"
-info:        "Compósición en idioma: Igles Americano
-              tango."  
+info:        "Compósición en idioma: Igles Americano, La canción proclama la voluntad, la 
+              libertad yla emancipación como fundamentos de una vida digna.
+              Defiende la autonomía de cada persona y rechaza toda forma de dogmatismo o imposición.
+              Afirma que la diversidad humana es una riqueza que debe ser respetada y celebrada.
+              Sostiene que la justicia solo puede surgir de la conciencia y de la libre elección.
+              Condena la violencia como instrumento de dominación y promueve la defensa de la 
+              libertad.
+              Propone una organización basada en la cooperación, la descentralización y el respeto mutuo.
+              Invita a construir comunidades mediante el pensamiento, la acción solidaria y la convivencia
+              pacífica.
+              Concluye que un mundo más libre florece cuando cada ser humano sigue su voluntad con valentía y sin temor.
+              Banda de Rock Sinfónico Gnóstico"  
 
 ------------------------------------------------------------------------------
 
