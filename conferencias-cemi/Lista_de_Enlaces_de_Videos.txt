@@ -2,21 +2,21 @@
 0- PlayList Conferencias-Internacionales-C.E.M.I.
 ---------------------------------------------------
 
-url-imagen:  "https://lucksys.github.io/videos/Conferencias-CEMI/portada.jpg"
+url-imagen:  "https://lucksys.github.io/videos/conferencias-cemi/portada.jpg"
 url-video:   ""
 url-cancion: ""
-web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/index"
+web-video:   "https://lucksys.github.io/videos/conferencias-cemi/index"
 web-canción: ""
-info: "Indice General de Video-Conferencoas INternacionales-C.E.M.I."
+info: "Indice General de Conferencias Internacionales-C.E.M.I."
 
 ------------------------------------------------------------------------------
 1- Conferencia_CEMI_n°696_Escuela_de_Sabiduria
 ----------------------------------------------
 
-url-imagen:  "https://lucksys.github.io/videos/Conferencias-CEMI/conferencia_n°696_escuela_de_sabiduria/portada.jpg"
+url-imagen:  "https://lucksys.github.io/videos/conferencias-cemi/conferencia_n°696_escuela_de_sabiduria/portada.jpg"
 url-video:   "https://drive.google.com/file/d/1tnvUvMwsRUzOAAbLetEVNd5RwqsSbWxO/view"
 url-cancion: ""
-web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/conferencia_n°696_escuela_de_sabiduria/index?t=p"
+web-video:   "https://lucksys.github.io/videos/conferencias-cemi/conferencia_n°696_escuela_de_sabiduria/index?t=p"
 web-cancion: ""
 info:        "Conferencia_CEMI_n°696_Escuela_de_Sabiduria"
 
