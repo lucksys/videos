@@ -13,10 +13,10 @@ info: "Indice General de Video-Conferencoas INternacionales-C.E.M.I."
 1- Conferencia_CEMI_n°696_Escuela_de_Sabiduria
 ----------------------------------------------
 
-url-imagen:  "https://lucksys.github.io/videos/Conferencias-CEMI/Conferencia_n°696_Escuela_de_Sabiduria/portada.jpg"
+url-imagen:  "https://lucksys.github.io/videos/Conferencias-CEMI/conferencia_n°696_escuela_de_sabiduria/portada.jpg"
 url-video:   "https://drive.google.com/file/d/1tnvUvMwsRUzOAAbLetEVNd5RwqsSbWxO/view"
 url-cancion: ""
-web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/Conferencia_n°696_Escuela_de_Sabiduria/index?t=k"
+web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/conferencia_n°696_escuela_de_sabiduria/index?t=p"
 web-cancion: ""
 info:        "Conferencia_CEMI_n°696_Escuela_de_Sabiduria"
 
