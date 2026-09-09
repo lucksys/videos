@@ -5,8 +5,8 @@
 url-imagen:  "https://lucksys.github.io/videos/Conferencias-CEMI/portada.jpg"
 url-video:   ""
 url-cancion: ""
-web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/jose/index"
-web-canción: "https://lucksys.github.io/videos/Conferencias-CEMI/jose/index"
+web-video:   "https://lucksys.github.io/videos/Conferencias-CEMI/index"
+web-canción: "https://lucksys.github.io/videos/Conferencias-CEMI/index"
 info: "Indice General de Video-Conferencoas INternacionales-C.E.M.I."
 
 ------------------------------------------------------------------------------
