@@ -199,7 +199,7 @@ cursor:pointer
 
 <div class="overlay">
 
-<h1>Conferencias Internacinales C.E.M.I.</h1>
+<h1>Conferencias Internacionales C.E.M.I.</h1>
 
 <div class="container">
 
@@ -331,9 +331,7 @@ titulo=m[2].replaceAll("_"," ").trim()
 
 if(/^url-imagen/i.test(l))imagen=getValue(l);
 if(/^url-video/i.test(l))video=getValue(l);
-if(/^url-cancion/i.test(l))cancion=getValue(l);
 if(/^web-video/i.test(l))webVideo=getValue(l);
-if(/^web-cancion/i.test(l))webCancion=getValue(l);
 
 if(/^info/i.test(l)){
 
@@ -364,9 +362,7 @@ indice,
 titulo,
 imagen,
 video,
-cancion,
 webVideo,
-webCancion,
 info:info.join("\n").replace(/-{3,}/g,"").trim()
 }
 }
@@ -469,32 +465,6 @@ mostrarAvisoVideo();
 
 };
 
-/* Copiar URL-Cancion: web-cancion: */
-const copySongBtn=document.createElement("button");
-copySongBtn.className="copy-btn";
-copySongBtn.textContent="Compartir-Cancion";
-
-copySongBtn.onclick=async(e)=>{
-
-e.stopPropagation();
-
-if(d.webCancion){
-
-const ok=await copiarURL(d.webCancion);
-
-if(ok)
-mostrarAviso(
-"URL-Canción : \""+d.titulo+"\".\n"+
-"Copiado al Portapapeles"
-);
-
-}else{
-
-mostrarAvisoMP3();
-
-}
-
-};
 
 /* Info */
 const infoBtn=document.createElement("button");
@@ -509,25 +479,11 @@ abrirInfo(d.titulo,d.info)
 
 };
 
-/* Solo Cancion */
-const btnCancion=document.createElement("button");
-btnCancion.className="song-btn";
-btnCancion.textContent="Solo Cancion";
 
-btnCancion.onclick=(e)=>{
-
-e.stopPropagation();
-
-window.open(d.cancion,"_blank")
-
-};
 
 /* Orden */
 buttonRowTop.appendChild(copyVideoBtn);
-buttonRowTop.appendChild(copySongBtn);
 buttonRowTop.appendChild(infoBtn);
-
-buttonRowBottom.appendChild(btnCancion);
 
 /* Imagen */
 const img=document.createElement("img");
