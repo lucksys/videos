@@ -1,19 +1,20 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Composiciones Musicales para el Alma</title>
+<title>Conferencias Internacionales del C.E.M.I.</title>
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Conferencias Internacionales del C.E.M.I.">
-<meta property="og:description" content="Una colección de Conferecis Internacionalesde C.E.M.I.">
-<meta property="og:image" content="https://lucksys.github.io//videos/conferencias-cemi/portada.jpg">
+<meta property="og:description" content="Una colección de Conferencias Internacionales del C.E.M.I.">
+<meta property="og:image" content="https://lucksys.github.io/videos/conferencias-cemi/portada.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Conferencias Internacionales del C.E.M.I.">
-<meta name="twitter:image" content="https://lucksys.github.io//videos/conferencias-cemi/portada.jpg">
+<meta name="twitter:image" content="https://lucksys.github.io/videos/conferencias-cemi/portada.jpg">
 
 <style>
 :root{
@@ -87,24 +88,17 @@ line-height:1.2;
 word-break:break-word
 }
 
-/* Primera línea de botones */
+/* Línea de botones */
 .button-row-top{
 display:grid;
-grid-template-columns:1.25fr 1.25fr .6fr;
+grid-template-columns:1.25fr .6fr;
 gap:6px;
 padding:0 12px 8px;
 width:100%
 }
 
-/* Segunda línea */
-.button-row-bottom{
-padding:0 12px 10px;
-width:100%
-}
-
 .copy-btn,
-.info-btn,
-.song-btn{
+.info-btn{
 height:32px;
 background:#000;
 color:#fff;
@@ -119,10 +113,6 @@ min-width:0;
 padding:0 4px
 }
 
-.song-btn{
-font-size:13px
-}
-
 .card img{
 width:100%;
 display:block;
@@ -130,7 +120,7 @@ background:#000;
 cursor:pointer
 }
 
-/* Aviso de copia en escritorio */
+/* Aviso de copia */
 .copy-notification{
 position:fixed;
 left:50%;
@@ -165,7 +155,8 @@ inset:0;
 background:#000a;
 display:none;
 align-items:center;
-justify-content:center
+justify-content:center;
+z-index:9998
 }
 
 .info-overlay.active{
@@ -178,7 +169,8 @@ background:#111;
 padding:20px;
 border:1px solid var(--gold);
 max-width:500px;
-width:90%
+width:90%;
+color:var(--text)
 }
 
 .info-close{
@@ -193,13 +185,14 @@ font-weight:bold;
 cursor:pointer
 }
 </style>
+
 </head>
 
 <body>
 
 <div class="overlay">
 
-<h1>Conferecias Internacionaled del C.E.M.I.</h1>
+<h1>Conferencias Internacionales del C.E.M.I.</h1>
 
 <div class="container">
 
@@ -213,9 +206,8 @@ cursor:pointer
 
 </div>
 
-<div class="column">
+<div class="column"></div>
 
-</div>
 </div>
 
 <div id="copyNotification" class="copy-notification"></div>
@@ -244,22 +236,17 @@ const infoTexto=document.getElementById("infoTexto");
 const copyNotification=document.getElementById("copyNotification");
 
 document.getElementById("infoClose").onclick=()=>{
-infoOverlay.classList.remove("active")
+infoOverlay.classList.remove("active");
 };
 
-/* Escritorio sin Android/iOS ni pantalla táctil */
-function esEscritorio(){
-return !/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
-&& navigator.maxTouchPoints===0
-&& !("ontouchstart" in window);
-}
+/* =========================================
+   AVISO
+   Funciona en PC, Android e iPhone
+   ========================================= */
 
-/* Aviso de copia */
 let notificationTimer;
 
-function mostrarAviso(mensaje){
-
-if(!esEscritorio())return;
+function mostrarAviso(mensaje,tiempo=2500){
 
 copyNotification.textContent="✓ "+mensaje;
 copyNotification.classList.add("active");
@@ -267,148 +254,262 @@ copyNotification.classList.add("active");
 clearTimeout(notificationTimer);
 
 notificationTimer=setTimeout(()=>{
-copyNotification.classList.remove("active")
-},2500);
+copyNotification.classList.remove("active");
+},tiempo);
+
 }
 
-/* Aviso de ausencia de archivo MP3 */
-function mostrarAvisoMP3(){
+/* =========================================
+   COPIAR URL
+   Compatible con:
+   - Chrome / Edge / Firefox / Safari
+   - Android
+   - iPhone / iPad
+   ========================================= */
 
-copyNotification.textContent="⛔️ !!! NO tiene Enlace de Audio Asociado !!! ⛔️";
-copyNotification.classList.add("active");
+async function copiarURL(url){
 
-clearTimeout(notificationTimer);
-
-notificationTimer=setTimeout(()=>{
-copyNotification.classList.remove("active")
-},1300);
+if(!url || !url.trim()){
+return false;
 }
 
-/* Aviso de ausencia de archivo de video */
-function mostrarAvisoVideo(){
+url=url.trim();
 
-copyNotification.textContent="⛔️ !!! No tiene Enlace de Video Asociado!!! ⛔️";
-copyNotification.classList.add("active");
+/* Método moderno */
+try{
 
-clearTimeout(notificationTimer);
+if(navigator.clipboard &&
+navigator.clipboard.writeText){
 
-notificationTimer=setTimeout(()=>{
-copyNotification.classList.remove("active")
-},1300);
+await navigator.clipboard.writeText(url);
+return true;
+
 }
 
-function abrirInfo(titulo,texto){
-infoTitulo.textContent=titulo;
-infoTexto.textContent=texto;
-infoOverlay.classList.add("active")
+}catch(e){
+
+console.warn(
+"Clipboard API no disponible:",
+e
+);
+
 }
+
+/* Método alternativo */
+try{
+
+const textarea=document.createElement("textarea");
+
+textarea.value=url;
+
+textarea.setAttribute("readonly","");
+textarea.style.position="fixed";
+textarea.style.left="-9999px";
+textarea.style.top="0";
+textarea.style.opacity="0";
+
+document.body.appendChild(textarea);
+
+textarea.focus();
+textarea.select();
+textarea.setSelectionRange(
+0,
+textarea.value.length
+);
+
+const resultado=document.execCommand("copy");
+
+document.body.removeChild(textarea);
+
+if(resultado){
+return true;
+}
+
+}catch(e){
+
+console.error(
+"Error copiando URL:",
+e
+);
+
+}
+
+return false;
+}
+
+/* =========================================
+   OBTENER VALOR DE UNA CLAVE
+   ========================================= */
 
 function getValue(line){
-const m=line.match(/:\s*"?([^"]+)/);
-return m?m[1].trim():null
+
+const m=line.match(/:\s*"?([^"]*)"?\s*$/);
+
+return m ? m[1].trim() : "";
+
 }
+
+/* =========================================
+   ANALIZAR BLOQUE
+   ========================================= */
 
 function parseBloque(lineas){
 
-let indice=null,titulo="",imagen=null,video=null,
-cancion=null,webVideo=null,webCancion=null,info=[];
+let indice=null;
+let titulo="";
+let imagen="";
+let video="";
+let webVideo="";
+let info=[];
 
 for(let i=0;i<lineas.length;i++){
 
-let l=lineas[i];
+const l=lineas[i];
 
+/* Número y título */
 if(i===0){
-let m=l.match(/^\s*(\d+)\s*-\s*(.+)/);
+
+const m=l.match(
+/^\s*(\d+)\s*-\s*(.+?)\s*$/
+);
+
 if(m){
-indice=parseInt(m[1]);
-titulo=m[2].replaceAll("_"," ").trim()
-}
+
+indice=parseInt(m[1],10);
+
+titulo=m[2]
+.replaceAll("_"," ")
+.trim();
+
 }
 
-if(/^url-imagen/i.test(l))imagen=getValue(l);
-if(/^url-video/i.test(l))video=getValue(l);
-if(/^url-cancion/i.test(l))cancion=getValue(l);
-if(/^web-video/i.test(l))webVideo=getValue(l);
-if(/^web-cancion/i.test(l))webCancion=getValue(l);
+}
 
-if(/^info/i.test(l)){
+/* Claves */
+if(/^url-imagen\s*:/i.test(l)){
+imagen=getValue(l);
+}
+
+if(/^url-video\s*:/i.test(l)){
+video=getValue(l);
+}
+
+if(/^web-video\s*:/i.test(l)){
+webVideo=getValue(l);
+}
+
+/* Información */
+if(/^info\s*:/i.test(l)){
 
 info.push(
 l.replace(/^info\s*:/i,"")
 .replace(/^\s*"+/,"")
+.replace(/"+\s*$/,"")
 .trim()
 );
 
 for(let j=i+1;j<lineas.length;j++){
-info.push(
-lineas[j]
+
+const texto=lineas[j]
 .replace(/^"+/,"")
 .replace(/"+$/,"")
-.trim()
-)
+.trim();
+
+/* No agregar separadores */
+if(!/^-{3,}$/.test(texto)){
+info.push(texto);
 }
 
-break
 }
+
+break;
 
 }
 
-if(!imagen||!video||!cancion)return null;
+}
+
+/*
+   IMAGEN Y VIDEO SON LOS ÚNICOS
+   DATOS OBLIGATORIOS.
+
+   web-video puede estar vacío.
+*/
+if(!imagen || !video){
+
+return null;
+
+}
 
 return{
-indice,
-titulo,
-imagen,
-video,
-cancion,
-webVideo,
-webCancion,
-info:info.join("\n").replace(/-{3,}/g,"").trim()
-}
-}
 
-async function copiarURL(url){
+indice:indice,
+titulo:titulo,
+imagen:imagen,
+video:video,
+webVideo:webVideo,
+info:info.join("\n")
+.replace(/-{3,}/g,"")
+.trim()
 
-try{
-await navigator.clipboard.writeText(url);
-return true
-}catch(e){
-
-try{
-
-const tmp=document.createElement("input");
-tmp.value=url;
-document.body.appendChild(tmp);
-tmp.select();
-document.execCommand("copy");
-document.body.removeChild(tmp);
-return true
-
-}catch(error){
-
-console.error(error);
-return false
+};
 
 }
 
-}
+/* =========================================
+   ABRIR INFORMACIÓN
+   ========================================= */
+
+function abrirInfo(titulo,texto){
+
+infoTitulo.textContent=titulo;
+
+infoTexto.textContent=
+texto || "Sin información disponible.";
+
+infoOverlay.classList.add("active");
 
 }
+
+/* Cerrar información haciendo clic fuera */
+infoOverlay.onclick=(e)=>{
+
+if(e.target===infoOverlay){
+infoOverlay.classList.remove("active");
+}
+
+};
+
+/* =========================================
+   CARGAR TXT
+   ========================================= */
 
 async function cargar(){
 
 try{
 
 const res=await fetch(
-"./Lista_de_Enlaces_de_Videos.txt"
+"./Lista_de_Enlaces_de_Videos.txt",
+{
+cache:"no-store"
+}
 );
 
-if(!res.ok)throw new Error("TXT no encontrado");
+if(!res.ok){
+
+throw new Error(
+"TXT no encontrado. HTTP "+res.status
+);
+
+}
 
 const txt=await res.text();
 
+/*
+   Los bloques comienzan con:
+   número - título
+*/
 const bloques=txt.split(
-/\n(?=\s*\d+\s*-\s*)/
+/(?=\s*\d+\s*-\s*.+)/
 );
 
 contenedor.innerHTML="";
@@ -417,146 +518,201 @@ let total=0;
 
 for(const b of bloques){
 
-const lineas=b.split("\n")
+const lineas=b
+.split(/\r?\n/)
 .map(l=>l.trim())
 .filter(Boolean);
 
+if(!lineas.length){
+continue;
+}
+
 const d=parseBloque(lineas);
 
-if(!d||d.indice===null||d.indice===0)continue;
+/* Ignorar bloques inválidos */
+if(!d){
+continue;
+}
+
+/* No mostrar registro 0 */
+if(d.indice===null || d.indice===0){
+continue;
+}
+
+/* =========================================
+   TARJETA
+   ========================================= */
 
 const card=document.createElement("div");
+
 card.className="card";
 
+/* Título */
 const titulo=document.createElement("div");
+
 titulo.className="card-title";
-titulo.textContent=d.indice+" - "+d.titulo;
 
-const buttonRowTop=document.createElement("div");
-buttonRowTop.className="button-row-top";
+titulo.textContent=
+d.indice+" - "+d.titulo;
 
-const buttonRowBottom=document.createElement("div");
-buttonRowBottom.className="button-row-bottom";
+/* Línea de botones */
+const buttonRowTop=
+document.createElement("div");
 
-/* Copiar URL-Video: web-video: */
-const copyVideoBtn=document.createElement("button");
+buttonRowTop.className=
+"button-row-top";
+
+/* =========================================
+   COMPARTIR VIDEO
+   ========================================= */
+
+const copyVideoBtn=
+document.createElement("button");
+
 copyVideoBtn.className="copy-btn";
-copyVideoBtn.textContent="Copmpartir-Video";
+
+copyVideoBtn.textContent=
+"Compartir-Video";
 
 copyVideoBtn.onclick=async(e)=>{
 
+e.preventDefault();
 e.stopPropagation();
 
-if(d.webVideo){
+/*
+   web-video es la URL que se comparte.
+*/
+if(!d.webVideo){
+
+mostrarAviso(
+"⛔️ !!! No tiene Enlace Web de Video Asociado !!!",
+1800
+);
+
+return;
+
+}
 
 const ok=await copiarURL(d.webVideo);
 
-if(ok)
+if(ok){
+
 mostrarAviso(
-"URL-Video : \""+d.titulo+"\".\n"+
-"Copiado al Portapapeles"
+"URL-Video : \""+
+d.titulo+
+"\".\n"+
+"Copiado al Portapapeles",
+2500
 );
 
 }else{
 
-mostrarAvisoVideo();
+mostrarAviso(
+"⚠️ No se pudo copiar la URL.\n"+
+"Puedes mantener pulsado y copiar manualmente.",
+3000
+);
 
 }
 
 };
 
-/* Copiar URL-Cancion: web-cancion: */
-const copySongBtn=document.createElement("button");
-copySongBtn.className="copy-btn";
-copySongBtn.textContent="Compartir-Cancion";
+/* =========================================
+   INFO
+   ========================================= */
 
-copySongBtn.onclick=async(e)=>{
+const infoBtn=
+document.createElement("button");
 
-e.stopPropagation();
-
-if(d.webCancion){
-
-const ok=await copiarURL(d.webCancion);
-
-if(ok)
-mostrarAviso(
-"URL-Canción : \""+d.titulo+"\".\n"+
-"Copiado al Portapapeles"
-);
-
-}else{
-
-mostrarAvisoMP3();
-
-}
-
-};
-
-/* Info */
-const infoBtn=document.createElement("button");
 infoBtn.className="info-btn";
+
 infoBtn.textContent="info";
 
 infoBtn.onclick=(e)=>{
 
+e.preventDefault();
 e.stopPropagation();
 
-abrirInfo(d.titulo,d.info)
+abrirInfo(
+d.titulo,
+d.info
+);
 
 };
 
-/* Solo Cancion */
-const btnCancion=document.createElement("button");
-btnCancion.className="song-btn";
-btnCancion.textContent="Solo Cancion";
-
-btnCancion.onclick=(e)=>{
-
-e.stopPropagation();
-
-window.open(d.cancion,"_blank")
-
-};
-
-/* Orden */
+/* Botones */
 buttonRowTop.appendChild(copyVideoBtn);
-buttonRowTop.appendChild(copySongBtn);
 buttonRowTop.appendChild(infoBtn);
 
-buttonRowBottom.appendChild(btnCancion);
+/* =========================================
+   IMAGEN
+   ========================================= */
 
-/* Imagen */
 const img=document.createElement("img");
 
 img.src=d.imagen;
 
+img.alt=d.titulo;
+
+img.loading="lazy";
+
 img.onerror=function(){
+
 this.onerror=null;
-this.src="portada.jpg"
+this.src="portada.jpg";
+
 };
 
+/*
+   La imagen abre url-video.
+*/
 img.onclick=()=>{
-window.open(d.video,"_blank")
+
+if(d.video){
+
+window.open(
+d.video,
+"_blank",
+"noopener,noreferrer"
+);
+
+}
+
 };
 
-/* Tarjeta */
+/* =========================================
+   TARJETA
+   ========================================= */
+
 card.appendChild(titulo);
+
 card.appendChild(buttonRowTop);
-card.appendChild(buttonRowBottom);
+
 card.appendChild(img);
 
 contenedor.appendChild(card);
 
-total++
+total++;
+
 }
 
-if(total===0)
-contenedor.innerHTML="No se encontraron obras";
+/* Ninguna entrada */
+if(total===0){
+
+contenedor.innerHTML=
+"No se encontraron conferencias.";
+
+}
 
 }catch(e){
 
-contenedor.innerHTML="Error cargando la lista";
-console.error(e)
+contenedor.innerHTML=
+"Error cargando la lista.";
+
+console.error(
+"Error:",
+e
+);
 
 }
 
@@ -569,3 +725,4 @@ cargar();
 
 </body>
 </html>
+
