@@ -7,7 +7,7 @@ url-video:   ""
 url-cancion: ""
 web-video:   "https://lucksys.github.io/videos/jose/index"
 web-canción: "https://lucksys.github.io/videos/jose/index"
-info: "Indice General de Video-Cancions Jose Voluntarista (Pepe)
+info: "Indice General de Video-Canciones Jose Voluntarista (Pepe)
        N.A."
 
 ------------------------------------------------------------------------------
@@ -55,4 +55,26 @@ info:        "Compósición en idioma: Igles Americano, La canción proclama la 
               Banda de Rock Sinfónico Gnóstico"  
 
 ------------------------------------------------------------------------------
+2- Will Freedom and Emancipation - EPYC -(Voluntad Libertad y Emancipación)
+---------------------------------------------------------------------------
 
+url-imagen:  "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/portada2.jpg"
+url-video:   "https://drive.google.com/file/d/1UHHyrD1d1pd3Yk0nAHKiJAJSYzqdEA49/view"
+url-cancion: "https://drive.google.com/file/d/1_e04D_wDuxUBaZsno35lIsL9MJgclqxq/view"
+web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index2?t=k"
+web-cancion: "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index2?t=a"
+info:        "Compósición en idioma: Igles Americano, La canción proclama la voluntad, la 
+              libertad yla emancipación como fundamentos de una vida digna.
+              Defiende la autonomía de cada persona y rechaza toda forma de dogmatismo o imposición.
+              Afirma que la diversidad humana es una riqueza que debe ser respetada y celebrada.
+              Sostiene que la justicia solo puede surgir de la conciencia y de la libre elección.
+              Condena la violencia como instrumento de dominación y promueve la defensa de la 
+              libertad.
+              Propone una organización basada en la cooperación, la descentralización y el respeto mutuo.
+              Invita a construir comunidades mediante el pensamiento, la acción solidaria y la convivencia
+              pacífica.
+              Concluye que un mundo más libre florece cuando cada ser humano sigue su voluntad con valentía y sin temor.
+              Banda de Rock Sinfónico Gnóstico"  
+
+------------------------------------------------------------------------------
+ 
