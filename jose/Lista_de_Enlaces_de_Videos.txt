@@ -61,7 +61,7 @@ info:        "Compósición en idioma: Igles Americano, La canción proclama la 
 url-imagen:  "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/portada2.jpg"
 url-video:   "https://drive.google.com/file/d/1UHHyrD1d1pd3Yk0nAHKiJAJSYzqdEA49/view"
 url-cancion: "https://drive.google.com/file/d/1_e04D_wDuxUBaZsno35lIsL9MJgclqxq/view"
-web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index2?t=k"
+web-video:   "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index2?t=p"
 web-cancion: "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/index2?t=a"
 info:        "Compósición en idioma: Igles Americano, La canción proclama la voluntad, la 
               libertad yla emancipación como fundamentos de una vida digna.
