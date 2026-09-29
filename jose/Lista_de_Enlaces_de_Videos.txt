@@ -55,7 +55,7 @@ info:        "Compósición en idioma: Igles Americano, La canción proclama la 
               Banda de Rock Sinfónico Gnóstico"  
 
 ------------------------------------------------------------------------------
-2- Will Freedom and Emancipation - EPYC -(Voluntad Libertad y Emancipación)
+3- Will Freedom and Emancipation - EPYC -(Voluntad Libertad y Emancipación)
 ---------------------------------------------------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/jose/will_freedom_and_emancipation/portada2.jpg"
@@ -77,7 +77,7 @@ info:        "Compósición en idioma: Igles Americano, La canción proclama la 
               Banda de Rock Sinfónico Gnóstico"  
 
 ------------------------------------------------------------------------------
-2- La Tierra que compartimos (La Vecindad)
+4- La Tierra que compartimos (La Vecindad)
 ------------------------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/portada.jpg"
@@ -85,6 +85,27 @@ url-video:   "https://drive.google.com/file/d/17y9_x8fN9LgVLq3_8i8dLffDX7ZQ-cfj/
 url-cancion: "https://drive.google.com/file/d/1V8lrpy_iwYdmyiZLlTAhW_NNt2SGMoTF/view"
 web-video:   "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/index?t=p"
 web-cancion: "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/index?t=a"
+info:        "Composición en idioma: español neutro, La canción afirma que somos personas unidas 
+              por una tierra, una memoria y una vida compartidas, más allá de fronteras y 
+              diferencias.
+              Defiende la vecindad como espacio de encuentro, pertenencia y esperanza, donde las 
+              diferencias pueden convertirse en vínculo y comunidad.
+              Reivindica el barrio y la tierra común como raíces vivas, lejos de la mercantilización
+              y el olvido.
+              Su mensaje central sostiene que nadie camina ni se salva en soledad, porque la libertad 
+              también nace del cuidado mutuo.
+              Finalmente, la calle, el hogar y la tierra compartida se convierten en símbolos de un 
+              nosotros construido desde la unión y la solidaridad."  
+
+------------------------------------------------------------------------------
+5- La Tierra que compartimos -EPYC - (La Vecindad)
+--------------------------------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/portada2.jpg"
+url-video:   "https://drive.google.com/file/d/1PLIWvj2BTCpw1PSit5_Ze2g_jc5bQOw0/view"
+url-cancion: "https://drive.google.com/file/d/1xvj6TSeEziAiWLBstHpXqMhs1JFL4Gh0/view"
+web-video:   "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/index2?t=p"
+web-cancion: "https://lucksys.github.io/videos/jose/la_tierra_que_compartimos/index2?t=a"
 info:        "Composición en idioma: español neutro, La canción afirma que somos personas unidas 
               por una tierra, una memoria y una vida compartidas, más allá de fronteras y 
               diferencias.
