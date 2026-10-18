@@ -131,4 +131,24 @@ info: "Composición cantada en: Itaiano Florentino. Basadas en las Bodas Alquimi
        conocimiento. El regreso final no es a un lugar, sino al origen. "
 
 -----------------------------------------------------------------------
+9- Libertango (- LEO -)
+------------------------------------------------------------
+                            
+url-imagen: "https://lucksys.github.io/videos/LEO/libertango/portada2.jpg"
+url-video: "https://drive.google.com/file/d/12dVWkTumMBahKef8z8xo-lQnxkuK-Nc1/view"
+url-cancion: "https://drive.google.com/file/d/12dVWkTumMBahKef8z8xo-lQnxkuK-Nc1/view"
+web-video: "https://lucksys.github.io/videos/LEO/libertango/index"
+web-cancion: "https://lucksys.github.io/videos/LEO/libertango/index?"
+info: "Composición cantada en: Itaiano Florentino. Ya he visto ese 
+       rostro rondando alrededor de mi puerta.
+       Me sigue como una sombra por las noches lluviosas de París
+       Sus pasos resuenan entre las piedras y la música de los bares
+       ¿Qué buscas, la muerte? ¿También odias la vida?
+       Bailo en bares y regreso con quien quiera acompañarme
+       Pero él permanece solo, con ojos que me hielan hasta los huesos
+       Joelle prepara su maleta entre vestidos y fotografías
+       Sin remordimientos ni dramas, la puerta golpea: Joelle se ha 
+       marchado. "
+
+----------------------------------------------------------------------
 
