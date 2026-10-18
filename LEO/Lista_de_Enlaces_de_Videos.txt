@@ -134,11 +134,11 @@ info: "Composición cantada en: Itaiano Florentino. Basadas en las Bodas Alquimi
 9- Libertango (- LEO -)
 ------------------------------------------------------------
                             
-url-imagen: "https://lucksys.github.io/videos/LEO/libertango/portada2.jpg"
+url-imagen: "https://lucksys.github.io/videos/LEO/libertango/portada.jpg"
 url-video: "https://drive.google.com/file/d/12dVWkTumMBahKef8z8xo-lQnxkuK-Nc1/view"
 url-cancion: "https://drive.google.com/file/d/12dVWkTumMBahKef8z8xo-lQnxkuK-Nc1/view"
-web-video: "https://lucksys.github.io/videos/LEO/libertango/index"
-web-cancion: "https://lucksys.github.io/videos/LEO/libertango/index?"
+web-video: "https://lucksys.github.io/videos/LEO/libertango/index?v=1"
+web-cancion: "https://lucksys.github.io/videos/LEO/libertango/index?v=1"
 info: "Composición cantada en: Itaiano Florentino. Ya he visto ese 
        rostro rondando alrededor de mi puerta.
        Me sigue como una sombra por las noches lluviosas de París
