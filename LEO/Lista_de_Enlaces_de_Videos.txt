@@ -18,7 +18,7 @@ url-imagen:  "https://lucksys.github.io/videos/LEO/ave_maria/portada.jpg"
 url-video:   "hhttps://drive.google.com/file/d/1bqVUZXRkPpOEd8pK_KRhV9bkDAizXRA_/view"
 url-cancion: "https://drive.google.com/file/d/1hNndNoOT_eWMoE-PHCFIZnxJWDUwVwS2/view"
 web-video:   "https://lucksys.github.io/videos/LEO/ave_maria/index"
-web-cancion: "https://lucksys.github.io/videos/LEO/ave_maria/index
+web-cancion: "https://lucksys.github.io/videos/LEO/ave_maria/index"
 info:        "Composición cantada en: Italiano Florentino por el Barítono Spinto: Leo J Loyola.
               Banda de Rock Sinfónico Gnóstico."
 
