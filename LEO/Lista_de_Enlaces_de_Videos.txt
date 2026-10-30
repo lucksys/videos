@@ -157,8 +157,8 @@ info: "Composición cantada en: Itaiano Florentino. Ya he visto ese
 url-imagen:  "https://lucksys.github.io/videos/LEO/reflexiones/portada.jpg"
 url-video:   "https://drive.google.com/file/d/1_mTS1zHtMvZu-VpM1sHjaJhi4QCUega6/view"
 url-cancion: "https://drive.google.com/file/d/1W2lbAJ_hIBS5Q_rl4DyjU7gn8o7-dZxP/view"
-web-video:   "https://lucksys.github.io/videos/LEO/reflexiones/index?t=p&v=1"
-web-cancion: "https://lucksys.github.io/videos/LEO/reflexiones/index?t=a&v=1"
+web-video:   "https://lucksys.github.io/videos/LEO/reflexiones/index?t=p&v=11"
+web-cancion: "https://lucksys.github.io/videos/LEO/reflexiones/index?t=a&v=11"
 info:        "Composicion en español neutro.La vida vale más por los abrazos y 
               los amigos que por las cosas materiales.
               No todas las batallas merecen lucharse ni todas las discusiones ganar.
