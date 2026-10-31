@@ -175,7 +175,7 @@ info:        "Composicion en español neutro.La vida vale más por los abrazos y
 ---------------------------
 
 url-imagen:  "https://lucksys.github.io/videos/LEO/reflexiones/portada2.jpg"
-url-video:   "https://drive.google.com/file/d/1rXtHQS24jnh2JzbhLkKbfn0liDzceIKz/view"
+url-video:   "https://drive.google.com/file/d/1Slx8zudwApqWSdkHiUCssxofWNvV-4RO/view"
 url-cancion: "https://drive.google.com/file/d/1G7ZOFaGoH11U3Wf8ujiXPIASc5FH5Hjf/view"
 web-video:   "https://lucksys.github.io/videos/LEO/reflexiones/index2?t=p&v=11"
 web-cancion: "https://lucksys.github.io/videos/LEO/reflexiones/index2?t=a&v=11"
