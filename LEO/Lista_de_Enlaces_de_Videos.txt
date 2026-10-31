@@ -171,4 +171,24 @@ info:        "Composicion en español neutro.La vida vale más por los abrazos y
               Al final, lo único que realmente perdura es el amor que supimos dar."
 
 ----------------------------------------------------------------------
- 
+11- Reflexiones... - EPYC - 
+---------------------------
+
+url-imagen:  "https://lucksys.github.io/videos/LEO/reflexiones/portada2.jpg"
+url-video:   "https://drive.google.com/file/d/1rXtHQS24jnh2JzbhLkKbfn0liDzceIKz/view"
+url-cancion: "https://drive.google.com/file/d/1G7ZOFaGoH11U3Wf8ujiXPIASc5FH5Hjf/view"
+web-video:   "https://lucksys.github.io/videos/LEO/reflexiones/index2?t=p&v=11"
+web-cancion: "https://lucksys.github.io/videos/LEO/reflexiones/index2?t=a&v=11"
+info:        "Composicion en español neutro.La vida vale más por los abrazos y 
+              los amigos que por las cosas materiales.
+              No todas las batallas merecen lucharse ni todas las discusiones ganar.
+              El tiempo vuela y enseña a distinguir lo esencial de lo innecesario.
+              La verdadera grandeza está en la gratitud, la lealtad y el corazón.
+              El amor sincero y la amistad valen más que cualquier riqueza.
+              Pedir perdón, cambiar y aprender también son formas de crecer.
+              La madurez enseña a vivir despacio, sin orgullo ni necesidad de 
+              aprobación.
+              Al final, lo único que realmente perdura es el amor que supimos dar."
+
+----------------------------------------------------------------------
+  
